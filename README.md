@@ -1,72 +1,14 @@
-# SuperTux: Groovy Grassland
-In an alternate version of the SuperTux story where Nolok moved from Mountain Peak, Tux has to go to a grassland world to save Penny. But is Nolok and Penny there? Who knows.
+# DifferentTux Reimagined
+Tux wakes up in a different world, and he feels like a DifferentTux! He actually doesn't feel like a different Tux, sorry.
+
+Anyways, this unofficial add-on is inspired by both Tux Junior and Forest World Adventure Pack.
+
+This is a reimagined version of my cancelled SuperTux 0.3.2 mod, DifferentTux.
+
+This was a repository for a grassland add-on but I'm no longer working on that grassland add-on thing, at least for now.
 
 ## Things Needed
-### Music
-#### Normal Grassland
-- [ ] Groovy (Worldmap Song)
-- [ ] Grassland Daytime
-- [ ] Grassland Daytime Alt
-- [ ] Grassland Evening
-- [ ] Grassland Night
-- [ ] Grassland Night Alt
-- [ ] Over The Grass (Sky Song)
-- [ ] The Granitos Return (Granito Residence Song)
+This is being moved to the wiki.
 
-#### Grassland Cave
-- [ ] Below The Grass (Cave Song)
-- [ ] Hole In The Grass (Cave Song 2)
-
-### Burning Grassland
-- [ ] Burning Down (Burning Grassland Level Song 1)
-- [ ] Through The Burning Grass (Burning Grassland Level Song 2)
-- [ ] Cave Of Flames (Burning Grassland Cave Song)
-- [ ] The Red Castle (Castle Song)
-- [ ] The Old Ruins (Basically, there will be an optional extra level that explains the history of the grassland in a ruins level)
-
-### Art
-#### Normal Grassland Tiles
-- [ ] Grassland (Needs to be remade with slopes and stuff)
-- [x] Rock decorations to go over the Grassland Tiles
-- [ ] Tall Grass
-- [ ] Dirt tiles (Grassland without grass)
-- [ ] Unisolid Grassland Tiles
-
-### Burning Grassland Tiles
-- [ ] Burning Grassland (recolor of normal grassland tiles but the grass goes down a bit more if that makes sense)
-- [ ] Fire decorations to go over the Burning Grassland tiles
-- [ ] Red Castle tiles (recolor of forest tower tiles)
-- [ ] Dirt tiles 2 (Burning Grassland without grass)
-- [ ] Unisolid Burning Grassland tiles
-
-#### Normal Grassland Enemies
-- [ ] Grassball (A snowball but instead of snow it's grass)
-- [ ] Tumbleweed Remake (Bouncing Snowball-like enemy)
-- [ ] Little Tree (Iceblock-like enemy, should be the same design as old SuperTux Little Tree but remade to be 0.7 style)
-- [ ] Walking Tree (Spiky-like enemy, see walking tree in supertux media images/creatures/tree/)
-- [ ] Leafman (Smaller Spiky-like enemy)
-
-#### Burning Grassland Enemies
-- [ ] Burnedball (A grassball with small flames on it)
-- [ ] Burning Tumbleweed (Bouncing Snowball-like enemy)
-- [ ] Burned Little Tree (I couldn't come up with a better name) (Little Tree but with fire replacing the eyes)
-- [ ] Burned Tree (Walking Tree but with fire on it)
-- [x] Livefire (Already done as this is a SuperTux enemy that already is in-game)
-
-#### Grassland Decals
-- [ ] Grass hill with hole in it exit
-
-#### Burning Grassland Decals
-- [ ] Grass hill with hole in it exit but it's on fire (could just be a red version of the grass hill with separate fire decals over it)
-
-## Story
-### Pre-Tux
-Before Tux was even born, the grassland was another forest. This forest had very large Granitos with no moss on their heads. These Granitos existed until they used every resource, like the wood from the trees, for their houses, the Red Castle, and what would eventually become the Old Ruins. Then, they started to fight each other (these Granitos were NOT peaceful) until there were just a few left hiding in what became of the building that is now the Old Ruins. There was a prophecy written that there would be a penguin chasing another creature through the grassland, eventually resulting in the destruction of the Red Castle, which means there would be nothing left except the Old Ruins. They didn't predict the new granitos from the Rooted Forest finding the grassland, although they knew somehow that they would be replaced.
-
-Also, nobody died in the fight, all that happened was most of the old granitos finding hidden islands and living the rest of their 100000s of years there.
-
-### Tux Arrives At The Grassland
-When Tux arrives at the grassland, he finds that Nolok has already put the forest enemies there, although there are some new ones. Tux decides he wouldn't give up, and runs towards the Red Castle that he can see in the distance.
-
-### Burning Grassland
-Tux eventually makes it three quarters of the way through, when he decides to sleep. When he wakes up, the entire grassland is on fire and the only way to stop it is the Red Castle being destroyed, so Tux runs towards the Red Castle and destroys it by pressing a button. To be clear, he had no idea that he'd need to press a button, or go to the Red Castle, in fact he had no clue that was how to stop the fire. He didn't think it could be stopped. But once the castle is destroyed, the fire magically disappears, and Tux sees that Nolok isn't there, and to stop being angry at the fact that Nolok keeps leaving the islands, he goes to the Old Ruins to calm down.
+## What else is there
+There was a story section for the grassland add-on but 1. the story is terrible and 2. the grassland add-on is no longer being worked on (for now, i might work on it later)
