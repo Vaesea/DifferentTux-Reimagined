@@ -70,6 +70,15 @@
       )
     )
 
+    (tilegroup
+      (name (_ "DT Misc"))
+      (tiles
+        90117 90118 0     0
+        90119 90120 0     0
+        90121 90122 0     0
+      )
+    )
+
     (tiles
       (width 4)
       (height 9)
@@ -219,6 +228,17 @@
         90114 90115 90116 0
       )
       (images "tiles/snow/snowbackground1.png")
+    )
+
+    (tiles
+      (width 2)
+      (height 3)
+      (ids
+        90117 90118 
+        90119 90120 
+        90121 90122
+      )
+      (images "tiles/doodads/tux_junior_statue.png")
     )
 
     (import-tileset
