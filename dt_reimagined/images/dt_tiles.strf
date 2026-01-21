@@ -95,7 +95,7 @@
         90021 90022 90023 90024
         90025 90026 90027 90028
         90029 90030 90031 90032
-        90070 0     0     0
+        90070 90134 0     0
       )
       (attributes
         0 0 0 0
@@ -253,6 +253,24 @@
         90132 90133
       )
       (images "tiles/doodads/tux_junior_statue.png")
+    )
+
+    (tiles
+      (width 1)
+      (height 1)
+      (ids
+        90135
+      )
+      (images "tiles/snow/grass1.png")
+    )
+
+    (tiles
+      (width 2)
+      (height 1)
+      (ids
+        90136 90137
+      )
+      (images "tiles/snow/grass2.png")
     )
 
     (import-tileset
