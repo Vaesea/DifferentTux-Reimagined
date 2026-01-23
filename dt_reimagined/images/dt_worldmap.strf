@@ -1,0 +1,52 @@
+;; -*- scheme -*-
+;; This file contains the mapping from tile-ids to images files as well
+;; as the tile properties (unisolid, solid, ice, water, etc.). Since
+;; it is important that the tile-ids don't change once created and
+;; used in a level some care has to be taken when editing this file,
+;; otherwise the levels would be rendered unusable.
+;;
+;; Some notes on editing this file:
+;;  - tile-ids must be unique
+;;  - the tile definition with the largest id should always be at the
+;;    bottom of the file
+;;  - when creating a new tile definition take the greatest current id
+;;    and increment it by one
+;;  - the meaning of the values in (attributes ...) can be seen in
+;;    src/tile.cpp, unisolid is 3 not 2
+
+;; sorry eauix i copied your snow covering tileset file
+;; anyways next tile id: 90001
+
+(supertux-tiles
+    (tilegroup
+      (name (_ "DT Snow"))
+      (tiles
+        90001 90002 90003 0
+        90004 90005 90006 0
+        90007 90008 90009 0
+        90010 90011 90012 0
+        90013 90014 90015 0
+        90016 90017 90018 0
+        90019 90020 90021 0
+      )
+    )
+
+    (tiles
+      (width 3)
+      (height 7)
+      (ids
+        90001 90002 90003
+        90004 90005 90006
+        90007 90008 90009
+        90010 90011 90012
+        90013 90014 90015
+        90016 90017 90018
+        90019 90020 90021
+      )
+      (images "worldmap/snowyland/worldmap.png")
+    )
+
+    (import-tileset
+        (file "/images/ice_world.strf")
+    )
+)

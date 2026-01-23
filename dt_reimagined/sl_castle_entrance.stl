@@ -1,0 +1,503 @@
+(supertux-level
+  (version 3)
+  (name (_ "Using The Charms"))
+  (author "Sophie Ball")
+  (license "CC-BY-SA 4.0 International")
+  (allow-item-pocket "inherit")
+  (icon "")
+  (icon-locked "")
+  (statistics
+    (enable-coins #f)
+    (enable-secrets #f)
+  )
+  (sector
+    (name "main")
+    (init-script "import(\"levels/dt_reimagined/world1.nut\");")
+    (ambient-light
+      (color 1 1 1)
+    )
+    (background
+      (name "Panorama")
+      (color 0.6313726 0.1803922 1)
+      (alignment "bottom")
+      (speed 0)
+      (image-top "images/background/misc/transparent_up.png")
+      (image "/images/background/antarctic/ice_mountains_panorama.png")
+      (image-bottom "images/background/misc/water_bottom.png")
+      (z-pos -350)
+    )
+    (camera
+      (name "Camera")
+      (mode "normal")
+    )
+    (decal
+      (name "blue")
+      (action "outline")
+      (z-pos 50)
+      (sprite "/levels/dt_reimagined/images/objects/charms/charm_blue.sprite")
+      (x 1420)
+      (y 1068)
+    )
+    (decal
+      (name "green")
+      (action "outline")
+      (z-pos 50)
+      (sprite "/levels/dt_reimagined/images/objects/charms/charm_green.sprite")
+      (x 3016)
+      (y 1000)
+    )
+    (decal
+      (name "orange")
+      (action "outline")
+      (z-pos 50)
+      (sprite "/levels/dt_reimagined/images/objects/charms/charm_orange.sprite")
+      (x 3848)
+      (y 1032)
+    )
+    (decal
+      (name "red")
+      (action "outline")
+      (z-pos 50)
+      (sprite "/levels/dt_reimagined/images/objects/charms/charm_red.sprite")
+      (x 4808)
+      (y 552)
+    )
+    (door
+      (z-pos -99)
+      (sector "main")
+      (locked #t)
+      (spawnpoint "two")
+      (x 2176)
+      (y 896)
+    )
+    (door
+      (z-pos -99)
+      (sector "main")
+      (locked #f)
+      (spawnpoint "back")
+      (x 3424)
+      (y 1440)
+    )
+    (gradient
+      (top_color 0.5 0.7 1)
+      (bottom_color 1 1 1)
+      (z-pos -400)
+    )
+    (key
+      (z-pos 50)
+      (x 3232)
+      (y 1488)
+    )
+    (music
+      (name "Music_Object")
+      (file "/music/antarctic/midday.music")
+    )
+    (path
+      (name "gen176904166195048248549792")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 1408)
+          (y 1408)
+          (time 3)
+        )
+        (node
+          (x 1408)
+          (y 1216)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "gen176904282295048253206864")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 3168)
+          (y 1344)
+          (time 3)
+        )
+        (node
+          (x 3168)
+          (y 1152)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "gen176904315295048253036480")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 2560)
+          (y 1600)
+          (time 3)
+        )
+        (node
+          (x 2560)
+          (y 1568)
+          (time 4)
+        )
+        (node
+          (x 2560)
+          (y 992)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "gen176904324595048252632336")
+      (path
+        (adapt_speed #t)
+        (node
+          (x 2720)
+          (y 1344)
+          (time 4)
+        )
+        (node
+          (x 2720)
+          (y 1216)
+          (time 4)
+        )
+      )
+    )
+    (path
+      (name "gen176904372295048178166400")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 3968)
+          (y 1344)
+          (time 3)
+        )
+        (node
+          (x 3968)
+          (y 1152)
+          (time 3)
+        )
+      )
+    )
+    (path
+      (name "gen176904392495048237082256")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 4928)
+          (y 1216)
+          (time 5)
+        )
+        (node
+          (x 4928)
+          (y 928)
+          (time 5)
+        )
+      )
+    )
+    (path
+      (name "gen176904412695048256904384")
+      (path
+        (mode "oneshot")
+        (adapt_speed #f)
+        (node
+          (x 5120)
+          (y 1216)
+          (time 5)
+        )
+        (node
+          (x 5120)
+          (y 928)
+          (time 5)
+        )
+      )
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door")
+      (path-ref "gen176904166195048248549792")
+      (sprite "/images/objects/platforms/vertical-wood-long.sprite")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door2")
+      (path-ref "gen176904282295048253206864")
+      (sprite "/images/objects/platforms/vertical-wood-long.sprite")
+    )
+    (platform
+      (z-pos -100)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "platform")
+      (path-ref "gen176904315295048253036480")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (path-ref "gen176904324595048252632336")
+    )
+    (platform
+      (z-pos 50)
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (running #f)
+      (name "door3")
+      (path-ref "gen176904372295048178166400")
+      (sprite "/images/objects/platforms/vertical-wood-long.sprite")
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "if(state.world1_charms.blue) {
+ if( ! (\"blueopen\" in this)) {
+  play_sound(\"sounds/turnkey.ogg\");
+  wait(1);
+  blue.set_action(\"display\");
+  wait(2);
+ door.start_moving();
+ }
+} else {
+ play_sound(\"sounds/locked.ogg\");
+}")
+      (button #f)
+      (width 32)
+      (height 192)
+      (x 1344)
+      (y 1408)
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "Camera.scale(0.75, 2);")
+      (button #f)
+      (width 32)
+      (height 1600)
+      (x 768)
+      (y 0)
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "if(state.world1_charms.green) {
+ if( ! (\"greenopen\" in this)) {
+  play_sound(\"sounds/turnkey.ogg\");
+  wait(1);
+  green.set_action(\"display\");
+  wait(2);
+ door2.start_moving();
+ }
+} else {
+ play_sound(\"sounds/locked.ogg\");
+}")
+      (button #f)
+      (width 32)
+      (height 192)
+      (x 3104)
+      (y 1344)
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "Camera.start_earthquake(2, 0.01);
+platform.start_moving();
+wait(3);
+Camera.stop_earthquake();")
+      (button #f)
+      (width 48)
+      (height 32)
+      (x 3232)
+      (y 1488)
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "if(state.world1_charms.orange) {
+ if( ! (\"orangeopen\" in this)) {
+  play_sound(\"sounds/turnkey.ogg\");
+  wait(1);
+  orange.set_action(\"display\");
+  wait(2);
+ door3.start_moving();
+ }
+} else {
+ play_sound(\"sounds/locked.ogg\");
+}")
+      (button #f)
+      (width 32)
+      (height 192)
+      (x 3904)
+      (y 1344)
+    )
+    (scripttrigger
+      (oneshot #t)
+      (script "if(state.world1_charms.red) {
+ if( ! (\"redopen\" in this)) {
+  play_sound(\"sounds/turnkey.ogg\");
+  wait(1);
+  red.set_action(\"display\");
+  wait(2);
+ lava.start_moving();
+ wood.start_moving();
+ }
+} else {
+ play_sound(\"sounds/locked.ogg\");
+}")
+      (button #f)
+      (width 32)
+      (height 192)
+      (x 4704)
+      (y 736)
+    )
+    (sequencetrigger
+      (sequence "endsequence")
+      (width 32)
+      (height 192)
+      (x 5952)
+      (y 736)
+    )
+    (spawnpoint
+      (name "main")
+      (x 64)
+      (y 1536)
+    )
+    (spawnpoint
+      (x 2624)
+      (y 1536)
+    )
+    (spawnpoint
+      (name "back")
+      (x 2176)
+      (y 928)
+    )
+    (spawnpoint
+      (name "two")
+      (x 3424)
+      (y 1472)
+    )
+    (spawnpoint
+      (x 4224)
+      (y 864)
+    )
+    (stalactite
+      (type "rock")
+      (glinting #f)
+      (z-pos -1)
+      (x 1984)
+      (y 1408)
+    )
+    (stalactite
+      (type "rock")
+      (glinting #f)
+      (z-pos -1)
+      (x 2112)
+      (y 1408)
+    )
+    (stalactite
+      (type "rock")
+      (glinting #f)
+      (z-pos -1)
+      (x 2240)
+      (y 1408)
+    )
+    (stalactite
+      (type "rock")
+      (glinting #f)
+      (z-pos -1)
+      (x 2176)
+      (y 1408)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -100)
+      (name "MidGround_Tiles")
+      (width 350)
+      (height 60)
+      (tiles -5399 0 -4 3277 -346 0 -4 3277 -346 0 -4 3277 -346 0 -4 3277 -1777 0 3280 -169 3277 -181 0 3280 -168 3277 -182 0 5144 -167 3277 -182 0 5144 -167 3277 -181 0 3280 -168 3277 -180 0 3280 -169 3277 -92 0 4106 -11 0 4104 -5 0 4106 -331 0 4111 -4 3277 -7 0 4109 -5 0 4111 -331 0 4111 -4 3277 -7 0 4109 -5 0 4111 -8 0 -4 3277 -270 0 -4 3277 -45 0 4111 -4 3277 -7 0 4109 -5 0 4111 -8 0 -4 3277 -270 0 -4 3277 -45 0 4111 -4 3277 -7 0 4109 -5 0 4111 -8 0 -4 3277 -270 0 -4 3277 -45 0 4111 -11 0 4109 -5 0 4111 -8 0 -4 3277 -270 0 -4 3277 -45 0 4111 -11 0 4109 -5 0 4111 -331 0 4111 -11 0 4114 -5 0 4116 -331 0 4111 -349 0 4111 -349 0 4111 -349 0 4111 -349 0 4111 -349 0 4111 -349 0 4116 -370 0 90147 90148 90149 90150 -346 0 90151 90152 90153 90154 -233 0 90149 90150 -28 0 90147 90148 90149 90150 -28 0 90147 90148 90149 90150 -25 0 90145 90134 90135 -19 0 90155 90156 90157 90158 -2 0 90145 90134 90135 -228 0 90153 90154 -3 0 90128 90129 -23 0 90151 90152 90153 90154 -28 0 90151 90152 90153 90154 -25 0 90136 90137 90138 -9 0 -2 90002 -8 0 90159 90160 90161 90162 -2 0 90136 90137 90138 -228 0 90157 90158 -3 0 90130 90131 -9 0 90144 90139 90140 -11 0 90155 90156 90157 90158 -20 0 90145 90134 90135 -5 0 90155 90156 90157 90158 -5 0 90144 90139 90140 -70 0 90006 -205 0 90161 90162 -3 0 90132 90133 -9 0 90141 90142 90143 -11 0 90159 90160 90161 90162 -20 0 90136 90137 90138 -5 0 90159 90160 90161 90162 -5 0 90141 90142 90143 -70 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -349 0 90010 -205 0)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos -150)
+      (name "BackGround_Tiles")
+      (width 350)
+      (height 60)
+      (tiles -21000 0)
+    )
+    (tilemap
+      (solid #t)
+      (z-pos 0)
+      (name "Main_Tiles")
+      (width 350)
+      (height 60)
+      (tiles -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -38 64 3517 -2 66 3519 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -38 64 5130 -2 0 5128 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -38 64 5130 -2 0 5128 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -39 64 -2 65 -2 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 5128 -43 64 5130 -24 0 5128 -170 64 -92 0 5128 -11 64 5130 -5 0 67 -43 66 3518 -24 0 67 -170 66 -92 0 5128 -11 64 5130 -337 0 5128 -11 64 5130 -337 0 5128 -11 64 5130 -337 0 5128 -11 64 5130 -337 0 5128 -11 64 5130 -337 0 5128 -11 64 5130 -336 0 4104 5128 -11 64 5130 4106 -3 0 4104 68 -43 65 69 -24 0 68 -170 65 -91 0 4109 5128 3517 -2 66 3519 -7 64 5130 4111 -3 0 4109 5128 -43 64 5130 -24 0 5128 -170 64 -42 0 68 -29 65 69 -18 0 4109 5128 5130 -2 0 5128 -7 64 5130 4111 -3 0 4109 5128 -8 64 3517 -2 66 3519 -31 64 5130 -24 0 5128 -170 64 -42 0 5128 3517 -2 66 3519 -25 64 5130 -18 0 4109 5128 5130 -2 0 5128 -7 64 5130 4111 -3 0 4109 5128 -8 64 5130 -2 0 5128 -31 64 5130 -24 0 5128 -170 64 -42 0 5128 5130 -2 0 5128 -25 64 5130 -18 0 4109 5128 64 -2 65 -8 64 5130 4111 -3 0 4109 5128 -8 64 5130 -2 0 5128 -31 64 5130 -24 0 5128 -170 64 -42 0 5128 5130 -2 0 5128 -25 64 5130 -18 0 4109 5128 -11 64 5130 4111 -3 0 4109 5128 -9 64 -2 65 -32 64 5130 -24 0 5128 -170 64 -42 0 5128 64 -2 65 -26 64 5130 -18 0 4109 5128 -5 64 3517 66 3519 -3 64 5130 4111 -3 0 4109 5128 -12 64 3517 66 3519 -28 64 5130 -24 0 5128 -170 64 -42 0 5128 -29 64 5130 -18 0 4109 5128 -5 64 5130 0 5128 -3 64 5130 4116 -3 0 4114 67 -5 66 3519 -6 64 5130 0 5128 -28 64 5130 -24 0 5128 -170 64 -42 0 5128 3517 66 3519 -26 64 5130 -18 0 4109 5128 -5 64 5130 0 5128 -3 64 5130 -11 0 67 3519 -5 64 5130 0 5128 -28 64 5130 -24 0 5128 -170 64 -42 0 5128 5130 0 5128 -26 64 5130 -18 0 4109 5128 -5 64 5130 0 5128 -3 64 5130 -12 0 67 3519 -4 64 5130 0 5128 -28 64 5130 -24 0 5128 -170 64 -42 0 5128 5130 0 5128 -26 64 5130 -18 0 4109 5128 -5 64 5130 0 5128 -3 64 5130 -13 0 67 3519 -3 64 5130 0 5128 -28 64 5130 -24 0 5128 -170 64 -42 0 5128 5130 0 5128 -26 64 5130 -18 0 4109 5128 -5 64 5130 0 5128 -3 64 5130 -14 0 67 3519 -2 64 5130 0 5128 -29 64 -24 65 -171 64 -42 0 5128 5130 0 5128 -26 64 5130 -18 0 4109 5128 3517 -4 66 3518 0 67 -2 66 3519 5130 -15 0 67 -2 66 3518 0 67 -2 66 3519 -221 64 -42 0 5128 5130 0 5128 -26 64 5130 -18 0 4109 5128 5130 -9 0 5128 5130 -23 0 5128 -221 64 -42 0 67 3518 0 67 -26 66 3518 -18 0 4114 67 3518 -9 0 5128 5130 -23 0 5128 -221 64 -103 0 5128 5130 -23 0 5128 -221 64 -103 0 5128 5130 -23 0 5128 -221 64 -103 0 5128 5130 -23 0 5128 -221 64 -88 0 90001 -14 90002 67 3518 -23 90002 67 -15 66 3519 -205 64 -88 0 90005 -3 90006 90032 -6 90006 90032 -5 90006 90032 -5 90006 -4 90032 -2 90006 90032 -26 90006 5128 -205 64 -88 90002 90026 -55 90010 5128 -205 64 -5 90006 90032 -8 90006 90032 -14 90006 90032 -8 90006 -3 90032 -7 90006 90032 -7 90006 90032 -8 90006 90032 -13 90006 90032 -8 90006 90030 -55 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64 -144 90010 5128 -205 64)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -2)
+      (name "lava")
+      (path-ref "gen176904392495048237082256")
+      (width 26)
+      (height 20)
+      (tiles 2136 2137 2138 2139 2136 2137 2138 2139 2136 2137 2138 2139 2136 2137 2138 2139 2136 2137 2138 2139 2136 2137 2138 2139 2136 2137 -494 4004)
+    )
+    (tilemap
+      (handle
+        (scale_x 0)
+        (scale_y 0)
+        (offset_x 0)
+        (offset_y 0)
+      )
+      (solid #t)
+      (z-pos -1)
+      (name "wood")
+      (path-ref "gen176904412695048256904384")
+      (width 14)
+      (height 1)
+      (tiles 90083 -2 90084 90085 -6 0 90083 -2 90084 90085)
+    )
+    (tilemap
+      (solid #f)
+      (z-pos 1)
+      (width 350)
+      (height 60)
+      (tiles -9910 0 90089 90098 -41 0 90097 90091 -24 0 90089 90098 -279 0 90093 90102 -41 0 90101 90095 -24 0 90093 90102 -211 0 90089 -29 90090 90091 -319 0 90093 -29 90094 90095 -10077 0)
+    )
+    (trampoline
+      (z-pos 50)
+      (x 4064)
+      (y 1504)
+    )
+  )
+  (tileset "/levels/dt_reimagined/images/dt_tiles.strf")
+)

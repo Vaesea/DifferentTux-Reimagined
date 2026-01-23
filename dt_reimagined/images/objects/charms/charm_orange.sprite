@@ -1,0 +1,14 @@
+(supertux-sprite
+ (action
+  (name "default")
+  (images "charm_orange.png")
+ )
+ (action
+  (name "display")
+  (images "charm_orange.png")
+ )
+ (action
+  (name "outline")
+  (images "charm_orange_outline.png")
+ )           
+)
