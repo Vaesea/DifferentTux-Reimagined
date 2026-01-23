@@ -9,3 +9,9 @@ This was a repository for a grassland add-on but I'm no longer working on that g
 
 ## Things Needed
 This has been moved to the wiki.
+
+## Credits
+* SuperTux Team - SuperTux
+* Stephen Groundwater - Tux Junior and Forest World Adventure Pack (this is inspired by both of those) (there's also a tux junior statue)
+* Vaesea - Art, Test Level
+* FilipOK - Art
