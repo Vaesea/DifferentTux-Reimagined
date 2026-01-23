@@ -1,0 +1,11 @@
+(supertux-sprite
+      (action
+         (name "empty")
+         (images "empty.png"))
+      (action 
+        (name "default")
+        (images "invisible.png"))
+      (action
+         (name "editor")
+         (images "empty.png"))
+)

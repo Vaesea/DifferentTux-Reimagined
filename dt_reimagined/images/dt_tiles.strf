@@ -15,12 +15,13 @@
 ;;    src/tile.cpp, unisolid is 3 not 2
 
 ;; sorry eauix i copied your snow covering tileset file
-;; anyways next tile id: 90001
+;; anyways next tile id: 90163
 
 (supertux-tiles
     (tilegroup
       (name (_ "DT Snow"))
       (tiles
+;; Snow
         90001 90002 90003 90004
         90005 90006 90007 90008
         90009 90010 90011 90012
@@ -34,6 +35,16 @@
         90093 90094 90095 90096
         90097 90098 90099 90100
         90101 90102 90103 90104
+        0     0     0     0
+;; Snow Decorations
+        90145 90134 90135 0
+        90136 90137 90138 0
+        90144 90139 90140 0
+        90141 90142 90143 0
+        90147 90148 90149 90150
+        90151 90152 90153 90154
+        90155 90156 90157 90158
+        90159 90160 90161 90162
         0     0     0     0
 ;; Snow Background
         90105 90106 90107 90108
@@ -253,6 +264,46 @@
         90132 90133
       )
       (images "tiles/doodads/tux_junior_statue.png")
+    )
+    (tiles
+      (width 3)
+      (height 2)
+      (ids
+        90145 90134 90135
+        90136 90137 90138
+      )
+      (images "tiles/snow/rock.png")
+    )
+
+    (tiles
+      (width 3)
+      (height 2)
+      (ids
+        90144 90139 90140
+        90141 90142 90143
+      )
+      (images "tiles/snow/rock_eyes.png")
+    )
+
+;; Original version of grass, should be removed in next commit.
+    (tiles
+      (width 1)
+      (deprecated #t)
+      (height 1)
+      (ids 90146)
+      (images "tiles/doodads/snakes.png")
+    )
+
+    (tiles
+      (width 4)
+      (height 4)
+      (ids 
+        90147 90148 90149 90150
+        90151 90152 90153 90154
+        90155 90156 90157 90158
+        90159 90160 90161 90162
+      )
+      (images "tiles/snow/iceshrub.png")
     )
 
     (tiles

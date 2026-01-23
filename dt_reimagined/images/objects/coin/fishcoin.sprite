@@ -1,0 +1,12 @@
+(supertux-sprite
+      (action 
+          (name "default")
+          (fps 15.0)
+          (images "fishcoin.png"))
+      (action
+          (name "still")
+          (images "fishcoin.png"))
+      (action
+          (name "editor")
+          (images "fishcoin.png"))
+)
